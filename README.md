@@ -2,6 +2,8 @@
 
 * is_subnet.py - Is the host within a valid subnet? 
 * give_ips.py - Give a subnet, this prints all IPv4 addresses (> /24)
+* revese.py - Give an IP address, prints a PTR record.
+
 ## is_subnet.py example:
 
 ```
@@ -42,4 +44,12 @@ Subnet: 172.17.1.128/29
 172.17.1.133
 172.17.1.134
 172.17.1.135
+```
+
+## reverse.py example
+```
+[ec2-user@ip-172-26-13-171 ip-tools]$ ./reverse.py 
+Specify IP for reverse record generation
+IP: 192.168.52.96
+96.52.168.192.in-addr.arpa
 ```
