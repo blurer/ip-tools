@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 
 import ipaddress
+import sys
 
-print('Specify IP for reverse record generation')
-ip = input("IP: ")
 
-print(ipaddress.ip_address(ip).reverse_pointer)
+in_file = sys.argv[1:]
+
+for x in in_file:
+    print(ipaddress.ip_address(x).reverse_pointer);

@@ -48,8 +48,10 @@ Subnet: 172.17.1.128/29
 
 ## reverse.py example
 ```
-[ec2-user@ip-172-26-13-171 ip-tools]$ ./reverse.py 
-Specify IP for reverse record generation
-IP: 192.168.52.96
-96.52.168.192.in-addr.arpa
+[ec2-user@ip-172-26-4-10 ip-tools]$ ./reverse.py 192.168.1.220 192.168.20.235 10.200.22.96 172.17.96.23
+220.1.168.192.in-addr.arpa
+235.20.168.192.in-addr.arpa
+96.22.200.10.in-addr.arpa
+23.96.17.172.in-addr.arpa
+
 ```
