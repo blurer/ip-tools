@@ -3,6 +3,7 @@
 * reverse_ptr.py
 * subnet_all.py
 * subnet_hosts.py
+* subnet
 
 ## is_subnet.py
 Is the host ip a valid ip address in the subnet you provide?
